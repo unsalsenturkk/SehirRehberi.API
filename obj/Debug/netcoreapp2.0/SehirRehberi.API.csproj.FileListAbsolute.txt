@@ -12,3 +12,4 @@ F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi
 F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.dll
 F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.pdb
 F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.genruntimeconfig.cache
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.csproj.AssemblyReference.cache
