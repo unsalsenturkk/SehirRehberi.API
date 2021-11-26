@@ -1,0 +1,14 @@
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\appsettings.json
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\SehirRehberi.API.deps.json
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\SehirRehberi.API.runtimeconfig.json
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\SehirRehberi.API.runtimeconfig.dev.json
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\SehirRehberi.API.dll
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\bin\Debug\netcoreapp2.0\SehirRehberi.API.pdb
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.AssemblyInfoInputs.cache
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.AssemblyInfo.cs
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.csproj.CoreCompileInputs.cache
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.dll
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.pdb
+F:\GitHub\SehirRehberi.API\SehirRehberi.API\obj\Debug\netcoreapp2.0\SehirRehberi.API.genruntimeconfig.cache
