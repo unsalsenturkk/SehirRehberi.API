@@ -18,7 +18,7 @@ namespace SehirRehberi.API.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get(int id) 
         {
             return "value";
         }
