@@ -1,4 +1,5 @@
-﻿using SehirRehberi.API.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SehirRehberi.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,33 @@ namespace SehirRehberi.API.Data
 
         public async Task<User> Login(string userName, string password)
         {
-            throw new NotImplementedException();
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName == userName);
+            if (user == null)
+            {
+                return null;
+            }
+
+            if (!VerifyPasswordHash(password,user.PasswordHash,user.PasswordSalt))
+            {
+                return null;
+            }
+            return user;
+        }
+
+        private bool VerifyPasswordHash(string password, byte[] userPasswordHash, byte[] userPasswordSalt)
+        {
+            using (var hmac = new System.Security.Cryptography.HMACSHA512(userPasswordSalt))
+            {
+                var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+                for (int i = 0; i < computedHash.Length; i++)
+                {
+                    if (computedHash[i] != userPasswordHash[i])
+                    {
+                        return false;
+                    }
+                }
+                return true;
+            }
         }
 
         public async Task<User> Register(User user, string password)
@@ -44,7 +71,11 @@ namespace SehirRehberi.API.Data
 
         public async Task<bool> UserExists(string userName)
         {
-            throw new NotImplementedException();
+            if (await _context.Users.AnyAsync(x => x.UserName == userName))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
