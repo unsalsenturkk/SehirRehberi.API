@@ -29,6 +29,7 @@ namespace SehirRehberi.API
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
             services.AddCors();
+            services.AddScoped<IAppRepository, IAppRepository>();
 
         }
 
