@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ueEA42YGNg2CCOwoGqYWK4gGHVnZeyGnwrhDNAYP4Kykvc9b1mOuiuWO3ACZUhMlyFKDaL8mhkI97Q6J0MpnEA==",
+  "dgSpecHash": "ornDPuRE7QJ8DZSC8w5zKaTIoHM8CCSXujNiQdOVsPnHGgXXJ60kTEMf2xvMpqE8cnQleWNCCTEzv3Pq1y/KYA==",
   "success": true,
   "projectFilePath": "F:\\GitHub\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\unsal\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\unsal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\microsoft.applicationinsights.aspnetcore\\2.1.1\\microsoft.applicationinsights.aspnetcore.2.1.1.nupkg.sha512",
@@ -288,7 +290,7 @@
     "C:\\Users\\unsal\\.nuget\\packages\\system.threading.thread\\4.3.0\\system.threading.thread.4.3.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
-    "C:\\Users\\unsal\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512",
+    "C:\\Users\\unsal\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\unsal\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",

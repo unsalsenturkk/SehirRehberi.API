@@ -9,7 +9,7 @@ namespace SehirRehberi.API.Models
     {
         public User()
         {
-            Cities = new List<City>;
+            Cities = new List<City>();
         }
         public int Id { get; set; }
         public string UserName { get; set; }
