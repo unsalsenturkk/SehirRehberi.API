@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -27,9 +28,10 @@ namespace SehirRehberi.API
         {
             //injection alanı -> Hangi nesne için hangi configuretion kullanılacak
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddAutoMapper();
             services.AddMvc();
             services.AddCors();
-            services.AddScoped<IAppRepository, IAppRepository>();
+            services.AddScoped<IAppRepository, AppRepository>();
 
         }
 
