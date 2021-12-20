@@ -16,6 +16,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace SehirRehberi.API
 {
     public class Startup
@@ -69,7 +70,7 @@ namespace SehirRehberi.API
             }
 
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());
-            app.UseAuthentication();
+            app.UseAuthentication();             
             app.UseMvc();
         }
     }

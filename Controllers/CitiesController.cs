@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace SehirRehberi.API.Controllers
 {
+    
     [Route("api/[controller]")]
     public class CitiesController : Controller
     {

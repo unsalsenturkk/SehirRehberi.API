@@ -45,10 +45,7 @@ namespace SehirRehberi.API.Controllers
                 return BadRequest("Could not find the city");
             }
 
-            if (User.FindFirst(ClaimTypes.NameIdentifier) == null)
-            {
-                return Unauthorized();
-            }
+           
             var currentUserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
             if (currentUserId != city.UserId)
