@@ -45,6 +45,10 @@ namespace SehirRehberi.API.Controllers
                 return BadRequest("Could not find the city");
             }
 
+            if (photoForCreationDto.PublicId == null)
+            {
+                return Unauthorized();
+            }
             var currentUserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
             if (currentUserId != city.UserId)
