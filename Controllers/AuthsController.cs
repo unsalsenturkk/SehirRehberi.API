@@ -70,7 +70,7 @@ namespace SehirRehberi.API.Controllers
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
 
-            return Ok(tokenString);
+            return Ok(Json(tokenString));
         }
 
     }

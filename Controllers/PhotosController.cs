@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace SehirRehberi.API.Controllers
 {
-    [Route("api/cites/{cityId}/photos")]
+    [Route("api/cities/{cityId}/photos")]
     public class PhotosController : Controller
     {
         IAppRepository _appRepository;
@@ -37,7 +37,7 @@ namespace SehirRehberi.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddPhotoForCity(int cityId, [FromBody]PhotoForCreationalDto photoForCreationDto)
+        public ActionResult AddPhotoForCity(int cityId, [FromForm]PhotoForCreationalDto photoForCreationDto)
         {
             var city = _appRepository.GetCityById(cityId);
             if (city == null)
